@@ -74,6 +74,10 @@ class Airline
     public int getFare(int sourceIndex, int destIndex)
     {
         int absoluteDifference = Math.abs(destIndex - sourceIndex);
+        if (absoluteDifference == 0)
+            return this.airLineCharge;
+
         return this.airLineCharge * absoluteDifference;
+
     }
 }
