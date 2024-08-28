@@ -1,0 +1,11 @@
+1 ) Enter User Details
+2) Check for any Invalid Credentials
+3) Accept Source
+4) Accept Destination
+5) Compute the Price of flight
+6)Ask for payment
+7) if payment succeeds display the details
+8) if payment fails go display the payment has failed and ask the user to try again
+9) Ask the user if they want to book again 
+10) if yes start the process again
+11) Else stop the execution
